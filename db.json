@@ -2,333 +2,132 @@
   "articles": [
     {
       "id": 1,
-      "source": {
-        "id": "tech-news",
-        "name": "TechNews"
-      },
-      "author": "John Doe",
-      "title": "Revolutionary AI Technology Transforms Mobile Development",
-      "description": "Latest advancements in artificial intelligence are reshaping how developers build mobile applications.",
-      "url": "https://example.com/ai-mobile-dev",
+      "source": {"id": "tech-crunch", "name": "TechCrunch"},
+      "author": "Sarah Johnson",
+      "title": "AI Technology Transforms Mobile Development",
+      "description": "Latest AI advancements are changing mobile app development.",
+      "url": "https://techcrunch.com/ai-mobile",
       "urlToImage": "https://picsum.photos/800/600?random=1",
       "publishedAt": "2024-12-10T08:30:00Z",
-      "content": "Artificial intelligence is revolutionizing mobile app development. Developers can now leverage AI-powered tools to create more intuitive and responsive applications. This breakthrough technology enables features like predictive text, image recognition, and personalized user experiences.",
+      "content": "AI is revolutionizing mobile development...",
       "category": "technology"
     },
     {
       "id": 2,
-      "source": {
-        "id": "business-today",
-        "name": "Business Today"
-      },
-      "author": "Jane Smith",
-      "title": "Stock Market Reaches Record High Amid Economic Recovery",
-      "description": "Global markets see unprecedented growth as economies bounce back from previous challenges.",
-      "url": "https://example.com/stock-market-high",
+      "source": {"id": "espn", "name": "ESPN"},
+      "author": "Mike Thompson",
+      "title": "Championship Game Ends in Dramatic Victory",
+      "description": "Historic match remembered for years to come.",
+      "url": "https://espn.com/championship",
       "urlToImage": "https://picsum.photos/800/600?random=2",
-      "publishedAt": "2024-12-10T07:15:00Z",
-      "content": "The stock market has reached an all-time high today, signaling strong economic recovery. Investors are optimistic about future growth prospects as major indices continue their upward trajectory.",
-      "category": "business"
-    },
-    {
-      "id": 3,
-      "source": {
-        "id": "sports-network",
-        "name": "Sports Network"
-      },
-      "author": "Mike Johnson",
-      "title": "Champions League Final: Epic Showdown Between Giants",
-      "description": "Two football powerhouses prepare for the most anticipated match of the season.",
-      "url": "https://example.com/champions-league",
-      "urlToImage": "https://picsum.photos/800/600?random=3",
-      "publishedAt": "2024-12-10T06:00:00Z",
-      "content": "Football fans around the world are gearing up for tonight's Champions League final. Both teams have shown exceptional performance throughout the season, making this match a must-watch event.",
+      "publishedAt": "2024-12-10T10:15:00Z",
+      "content": "The championship delivered an exciting finish...",
       "category": "sports"
     },
     {
-      "id": 4,
-      "source": {
-        "id": "health-daily",
-        "name": "Health Daily"
-      },
-      "author": "Dr. Sarah Wilson",
-      "title": "Breakthrough in Cancer Treatment Shows Promising Results",
-      "description": "New medical research reveals innovative approach to treating various forms of cancer.",
-      "url": "https://example.com/cancer-breakthrough",
-      "urlToImage": "https://picsum.photos/800/600?random=4",
-      "publishedAt": "2024-12-10T05:30:00Z",
-      "content": "Scientists have announced a major breakthrough in cancer treatment. The new therapy has shown remarkable success rates in clinical trials, offering hope to millions of patients worldwide.",
+      "id": 3,
+      "source": {"id": "health-line", "name": "HealthLine"},
+      "author": "Dr. Emily Chen",
+      "title": "Medical Breakthrough in Cancer Treatment",
+      "description": "New treatment shows promising results.",
+      "url": "https://healthline.com/cancer",
+      "urlToImage": "https://picsum.photos/800/600?random=3",
+      "publishedAt": "2024-12-09T15:20:00Z",
+      "content": "Major breakthrough announced in cancer treatment...",
       "category": "health"
     },
     {
+      "id": 4,
+      "source": {"id": "business-insider", "name": "Business Insider"},
+      "author": "Robert Martinez",
+      "title": "Global Markets Rally on Economic Data",
+      "description": "Stock markets respond to positive indicators.",
+      "url": "https://businessinsider.com/markets",
+      "urlToImage": "https://picsum.photos/800/600?random=4",
+      "publishedAt": "2024-12-09T13:45:00Z",
+      "content": "Markets posted gains on encouraging data...",
+      "category": "business"
+    },
+    {
       "id": 5,
-      "source": {
-        "id": "entertainment-weekly",
-        "name": "Entertainment Weekly"
-      },
-      "author": "Emma Brown",
-      "title": "Award-Winning Film Director Announces New Project",
-      "description": "Oscar-winning director reveals details about highly anticipated upcoming movie.",
-      "url": "https://example.com/new-film-project",
+      "source": {"id": "variety", "name": "Variety"},
+      "author": "Jennifer Lee",
+      "title": "Blockbuster Sequel Announced for 2025",
+      "description": "Original cast confirmed to return.",
+      "url": "https://variety.com/sequel",
       "urlToImage": "https://picsum.photos/800/600?random=5",
-      "publishedAt": "2024-12-10T04:45:00Z",
-      "content": "Acclaimed director Christopher Anderson has announced his next big project. The film promises to be a cinematic masterpiece with an ensemble cast of Hollywood's finest actors.",
+      "publishedAt": "2024-12-09T11:30:00Z",
+      "content": "Studio confirms production on sequel...",
       "category": "entertainment"
     },
     {
       "id": 6,
-      "source": {
-        "id": "science-journal",
-        "name": "Science Journal"
-      },
-      "author": "Prof. David Lee",
-      "title": "New Planet Discovered in Habitable Zone of Distant Star",
-      "description": "Astronomers identify potentially habitable exoplanet using advanced telescope technology.",
-      "url": "https://example.com/new-planet",
+      "source": {"id": "scientific-american", "name": "Scientific American"},
+      "author": "Dr. James Wilson",
+      "title": "Climate Change Solution Discovered",
+      "description": "New method for reducing carbon emissions.",
+      "url": "https://scientificamerican.com/climate",
       "urlToImage": "https://picsum.photos/800/600?random=6",
-      "publishedAt": "2024-12-10T03:20:00Z",
-      "content": "A team of astronomers has discovered a new exoplanet in the habitable zone of a distant star. This discovery brings us one step closer to finding life beyond Earth.",
+      "publishedAt": "2024-12-09T09:00:00Z",
+      "content": "Scientists develop carbon capture method...",
       "category": "science"
     },
     {
       "id": 7,
-      "source": {
-        "id": "tech-news",
-        "name": "TechNews"
-      },
-      "author": "Alex Turner",
-      "title": "5G Network Expansion Reaches Rural Communities",
-      "description": "Telecommunications companies accelerate deployment of next-generation wireless technology.",
-      "url": "https://example.com/5g-expansion",
+      "source": {"id": "bbc-news", "name": "BBC News"},
+      "author": "David Brown",
+      "title": "Global Economic Summit Concludes",
+      "description": "Leaders discuss cooperation strategies.",
+      "url": "https://bbc.com/summit",
       "urlToImage": "https://picsum.photos/800/600?random=7",
-      "publishedAt": "2024-12-09T22:10:00Z",
-      "content": "Major telecom providers are expanding 5G coverage to previously underserved rural areas. This initiative aims to bridge the digital divide and provide high-speed internet access to all communities.",
-      "category": "technology"
+      "publishedAt": "2024-12-08T16:20:00Z",
+      "content": "Summit addresses economic challenges...",
+      "category": "general"
     },
     {
       "id": 8,
-      "source": {
-        "id": "business-today",
-        "name": "Business Today"
-      },
-      "author": "Robert Chen",
-      "title": "Tech Giant Announces Major Sustainability Initiative",
-      "description": "Leading technology company commits to carbon neutrality by 2030.",
-      "url": "https://example.com/sustainability",
+      "source": {"id": "wired", "name": "Wired"},
+      "author": "Alex Turner",
+      "title": "Next-Gen Smartphone Tech Revealed",
+      "description": "Revolutionary features coming next month.",
+      "url": "https://wired.com/smartphone",
       "urlToImage": "https://picsum.photos/800/600?random=8",
-      "publishedAt": "2024-12-09T20:30:00Z",
-      "content": "A major tech corporation has unveiled an ambitious plan to achieve carbon neutrality within the next five years. The initiative includes renewable energy investments and sustainable product design.",
-      "category": "business"
+      "publishedAt": "2024-12-08T14:10:00Z",
+      "content": "Industry sees biggest innovation in years...",
+      "category": "technology"
     },
     {
       "id": 9,
-      "source": {
-        "id": "sports-network",
-        "name": "Sports Network"
-      },
-      "author": "Lisa Martinez",
-      "title": "Olympic Athletes Begin Training for Next Summer Games",
-      "description": "World-class athletes prepare for international competition with intensive training programs.",
-      "url": "https://example.com/olympic-training",
+      "source": {"id": "sports-illustrated", "name": "Sports Illustrated"},
+      "author": "Chris Anderson",
+      "title": "Athlete Breaks Decades-Old Record",
+      "description": "Young star achieves the impossible.",
+      "url": "https://si.com/record",
       "urlToImage": "https://picsum.photos/800/600?random=9",
-      "publishedAt": "2024-12-09T18:45:00Z",
-      "content": "Athletes from around the globe have intensified their training regimens in preparation for the upcoming Olympic Games. Coaches report unprecedented levels of dedication and performance.",
+      "publishedAt": "2024-12-08T12:00:00Z",
+      "content": "Record shattered after 20 years...",
       "category": "sports"
     },
     {
       "id": 10,
-      "source": {
-        "id": "health-daily",
-        "name": "Health Daily"
-      },
-      "author": "Dr. Michael Adams",
-      "title": "Mental Health Awareness Campaign Launches Nationwide",
-      "description": "New initiative aims to reduce stigma and improve access to mental health services.",
-      "url": "https://example.com/mental-health",
+      "source": {"id": "forbes", "name": "Forbes"},
+      "author": "Lisa Wang",
+      "title": "Tech Startups Attract Record Investment",
+      "description": "VC funding reaches new heights.",
+      "url": "https://forbes.com/startups",
       "urlToImage": "https://picsum.photos/800/600?random=10",
-      "publishedAt": "2024-12-09T16:20:00Z",
-      "content": "A comprehensive mental health awareness campaign has been launched to educate the public and provide resources for those in need. The program emphasizes early intervention and community support.",
-      "category": "health"
-    },
-    {
-      "id": 11,
-      "source": {
-        "id": "entertainment-weekly",
-        "name": "Entertainment Weekly"
-      },
-      "author": "Tom Anderson",
-      "title": "Music Festival Announces Star-Studded Lineup",
-      "description": "Annual summer festival reveals impressive roster of international artists.",
-      "url": "https://example.com/music-festival",
-      "urlToImage": "https://picsum.photos/800/600?random=11",
-      "publishedAt": "2024-12-09T14:00:00Z",
-      "content": "Organizers of the renowned summer music festival have announced this year's lineup, featuring chart-topping artists and emerging talents from various genres. Tickets are expected to sell out quickly.",
-      "category": "entertainment"
-    },
-    {
-      "id": 12,
-      "source": {
-        "id": "science-journal",
-        "name": "Science Journal"
-      },
-      "author": "Dr. Rachel Green",
-      "title": "Quantum Computing Achieves Major Milestone",
-      "description": "Researchers demonstrate quantum supremacy with unprecedented computational power.",
-      "url": "https://example.com/quantum-computing",
-      "urlToImage": "https://picsum.photos/800/600?random=12",
-      "publishedAt": "2024-12-09T12:30:00Z",
-      "content": "Scientists have achieved a significant breakthrough in quantum computing, demonstrating capabilities that surpass traditional supercomputers. This advancement could revolutionize fields from cryptography to drug discovery.",
-      "category": "science"
-    },
-    {
-      "id": 13,
-      "source": {
-        "id": "general-news",
-        "name": "General News"
-      },
-      "author": "Patricia Davis",
-      "title": "Community Initiative Transforms Local Park",
-      "description": "Volunteers work together to revitalize neighborhood green space.",
-      "url": "https://example.com/park-renovation",
-      "urlToImage": "https://picsum.photos/800/600?random=13",
-      "publishedAt": "2024-12-09T10:15:00Z",
-      "content": "Local residents have joined forces to renovate and beautify their neighborhood park. The grassroots initiative includes new playground equipment, gardens, and walking paths.",
-      "category": "general"
-    },
-    {
-      "id": 14,
-      "source": {
-        "id": "tech-news",
-        "name": "TechNews"
-      },
-      "author": "Kevin White",
-      "title": "Cybersecurity Experts Warn of New Online Threats",
-      "description": "Security professionals identify emerging risks and recommend protective measures.",
-      "url": "https://example.com/cybersecurity-threats",
-      "urlToImage": "https://picsum.photos/800/600?random=14",
-      "publishedAt": "2024-12-09T08:00:00Z",
-      "content": "Cybersecurity experts have identified new types of online threats targeting businesses and individuals. They recommend updated security protocols and increased awareness to protect sensitive information.",
-      "category": "technology"
-    },
-    {
-      "id": 15,
-      "source": {
-        "id": "business-today",
-        "name": "Business Today"
-      },
-      "author": "Jennifer Taylor",
-      "title": "E-commerce Sales Set New Record During Holiday Season",
-      "description": "Online retailers report unprecedented growth in consumer spending.",
-      "url": "https://example.com/ecommerce-record",
-      "urlToImage": "https://picsum.photos/800/600?random=15",
-      "publishedAt": "2024-12-09T06:30:00Z",
-      "content": "E-commerce platforms have experienced record-breaking sales this holiday season. Analysts attribute the surge to improved user experiences, competitive pricing, and widespread adoption of online shopping.",
+      "publishedAt": "2024-12-08T10:30:00Z",
+      "content": "Unprecedented funding for tech companies...",
       "category": "business"
-    },
-    {
-      "id": 16,
-      "source": {
-        "id": "sports-network",
-        "name": "Sports Network"
-      },
-      "author": "Chris Roberts",
-      "title": "Basketball Star Signs Historic Contract Extension",
-      "description": "Professional athlete agrees to record-breaking deal with franchise.",
-      "url": "https://example.com/basketball-contract",
-      "urlToImage": "https://picsum.photos/800/600?random=16",
-      "publishedAt": "2024-12-08T23:45:00Z",
-      "content": "A top basketball player has signed a historic contract extension, making it one of the largest deals in sports history. The multi-year agreement ensures the star will remain with the team for seasons to come.",
-      "category": "sports"
-    },
-    {
-      "id": 17,
-      "source": {
-        "id": "health-daily",
-        "name": "Health Daily"
-      },
-      "author": "Dr. Amanda Clark",
-      "title": "Study Reveals Benefits of Mediterranean Diet",
-      "description": "Research shows positive health outcomes from traditional eating patterns.",
-      "url": "https://example.com/mediterranean-diet",
-      "urlToImage": "https://picsum.photos/800/600?random=17",
-      "publishedAt": "2024-12-08T21:20:00Z",
-      "content": "A comprehensive study has confirmed the numerous health benefits of the Mediterranean diet. Participants following this eating pattern showed improved cardiovascular health and reduced risk of chronic diseases.",
-      "category": "health"
-    },
-    {
-      "id": 18,
-      "source": {
-        "id": "entertainment-weekly",
-        "name": "Entertainment Weekly"
-      },
-      "author": "Sophie Miller",
-      "title": "Streaming Platform Announces Original Series Lineup",
-      "description": "Media company reveals slate of exclusive content for upcoming season.",
-      "url": "https://example.com/streaming-series",
-      "urlToImage": "https://picsum.photos/800/600?random=18",
-      "publishedAt": "2024-12-08T19:00:00Z",
-      "content": "A major streaming service has unveiled its lineup of original series for the coming months. The diverse collection includes drama, comedy, and documentary programming designed to appeal to global audiences.",
-      "category": "entertainment"
-    },
-    {
-      "id": 19,
-      "source": {
-        "id": "science-journal",
-        "name": "Science Journal"
-      },
-      "author": "Dr. James Wilson",
-      "title": "Climate Scientists Report Positive Environmental Trends",
-      "description": "New data shows progress in conservation efforts and emissions reduction.",
-      "url": "https://example.com/climate-progress",
-      "urlToImage": "https://picsum.photos/800/600?random=19",
-      "publishedAt": "2024-12-08T16:40:00Z",
-      "content": "Environmental researchers have identified encouraging trends in global conservation efforts. Data indicates measurable improvements in air quality and reductions in greenhouse gas emissions across multiple regions.",
-      "category": "science"
-    },
-    {
-      "id": 20,
-      "source": {
-        "id": "general-news",
-        "name": "General News"
-      },
-      "author": "Daniel Harris",
-      "title": "City Council Approves Infrastructure Improvement Plan",
-      "description": "Local government invests in transportation and public facilities upgrades.",
-      "url": "https://example.com/infrastructure-plan",
-      "urlToImage": "https://picsum.photos/800/600?random=20",
-      "publishedAt": "2024-12-08T14:15:00Z",
-      "content": "The city council has approved a comprehensive infrastructure improvement plan. The initiative will modernize roads, bridges, and public transportation systems over the next several years.",
-      "category": "general"
     }
   ],
   "categories": [
-    {
-      "id": "general",
-      "name": "General"
-    },
-    {
-      "id": "business",
-      "name": "Business"
-    },
-    {
-      "id": "entertainment",
-      "name": "Entertainment"
-    },
-    {
-      "id": "health",
-      "name": "Health"
-    },
-    {
-      "id": "science",
-      "name": "Science"
-    },
-    {
-      "id": "sports",
-      "name": "Sports"
-    },
-    {
-      "id": "technology",
-      "name": "Technology"
-    }
+    {"id": "general", "name": "General", "icon": "📰"},
+    {"id": "business", "name": "Business", "icon": "💼"},
+    {"id": "entertainment", "name": "Entertainment", "icon": "🎬"},
+    {"id": "health", "name": "Health", "icon": "🏥"},
+    {"id": "science", "name": "Science", "icon": "🔬"},
+    {"id": "sports", "name": "Sports", "icon": "⚽"},
+    {"id": "technology", "name": "Technology", "icon": "💻"}
   ]
 }
